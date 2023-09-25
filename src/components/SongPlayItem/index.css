@@ -1,0 +1,55 @@
+.song-items {
+  list-style-type: none;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-img-genre-name-container {
+  display: flex;
+}
+
+.song-image {
+  height: 100px;
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.song-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.genre-name {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.duration-delete-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.duration-time {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-top: 2px;
+  margin-left: 20px;
+}
